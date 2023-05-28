@@ -1,0 +1,9 @@
+[package]
+name = "forecast"
+version = "0.1.0"
+edition = "2021"
+authors = ["boris.lok <boris.lok.tw@outlook.com>"]
+
+
+[dependencies]
+clap = { version = "4.3.0", features = ["derive", "wrap_help"] }
